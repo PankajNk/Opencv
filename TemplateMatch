@@ -3,7 +3,7 @@ import numpy as np
 
 #load the image
 image = cv2.imread("coriginal.jpg")
-cv2.imshow("where is pankaj",image)
+cv2.imshow("where is virat",image)
 cv2.waitKey(0)
 
 #convert to gray
@@ -23,7 +23,7 @@ bottom_right = (top_left[0] + 70 ,top_left[1] + 110)
 cv2.rectangle(image,top_left,bottom_right, (255,255,0), 2)
 
 
-cv2.imshow("where is pankaj",image)
+cv2.imshow("where is virat",image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
